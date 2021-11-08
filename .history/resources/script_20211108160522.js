@@ -97,7 +97,7 @@ function showWeatherInDom(data) {
 
     // tekstas wrapper2 elemente
 
-        document.getElementById("h1").innerHTML = "Prognozė";
+        document.getElementById("h1").textContent = "Prognozė";
         document.getElementById("h4-1").textContent = data.list[6].dt_txt;
         document.getElementById("h4-2").textContent = data.list[14].dt_txt;
         document.getElementById("h4-3").textContent = data.list[22].dt_txt;

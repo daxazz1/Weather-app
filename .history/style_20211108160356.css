@@ -88,7 +88,7 @@ body::after {
   position: absolute;
   z-index: -1;
   background-size: cover;
-  filter: blur(2px);
+  filter: blur(6px);
 }
 tr:hover {
   background-color: #311a31;
