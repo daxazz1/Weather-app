@@ -42,10 +42,13 @@ function showWeatherInDom(data) {
     if (data.cod === '200') {
 
 
+        let prognozemygtukas = document.createElement("button")
+        prognozemygtukas.innerHTML = "Prognozė"
+        prognozemygtukas.id = "prognoze"
+        document.getElementById("wrapper1").appendChild(prognozemygtukas)
 
 
-
-
+        
     // /prognoze siai dienai
 
         document.getElementById("pirmas").innerHTML =  data.city.name;

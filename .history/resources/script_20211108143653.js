@@ -41,11 +41,6 @@ function showWeatherInDom(data) {
     // tikrinu ar mano response yra geras
     if (data.cod === '200') {
 
-
-
-
-
-
     // /prognoze siai dienai
 
         document.getElementById("pirmas").innerHTML =  data.city.name;
@@ -95,10 +90,10 @@ function showWeatherInDom(data) {
         image4.src = iconUrl4;
 
 
-
+        let prognozemygtukas = document.createElement(<button id="prognoze">Prognozė</button>)
+        document.getElementById("wrapper1").appendChild(prognozemygtukas)
         
-
-
+        document.getElementById("wrapper1").appendChild('div')
         document.getElementById("h1").textContent = "Prognozė";
         document.getElementById("h4-1").innerHTML = data.list[6].dt_txt;
         document.getElementById("h4-2").textContent = data.list[14].dt_txt;

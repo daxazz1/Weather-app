@@ -41,11 +41,6 @@ function showWeatherInDom(data) {
     // tikrinu ar mano response yra geras
     if (data.cod === '200') {
 
-
-
-
-
-
     // /prognoze siai dienai
 
         document.getElementById("pirmas").innerHTML =  data.city.name;
@@ -96,9 +91,7 @@ function showWeatherInDom(data) {
 
 
 
-        
-
-
+        document.getElementById("`wrapper1`").innerHTML = "<button id='prognoze'>Prognoze</button>"
         document.getElementById("h1").textContent = "Prognozė";
         document.getElementById("h4-1").innerHTML = data.list[6].dt_txt;
         document.getElementById("h4-2").textContent = data.list[14].dt_txt;

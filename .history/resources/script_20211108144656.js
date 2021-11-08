@@ -41,11 +41,6 @@ function showWeatherInDom(data) {
     // tikrinu ar mano response yra geras
     if (data.cod === '200') {
 
-
-
-
-
-
     // /prognoze siai dienai
 
         document.getElementById("pirmas").innerHTML =  data.city.name;
@@ -94,7 +89,10 @@ function showWeatherInDom(data) {
         let iconUrl4 = 'http://openweathermap.org/img/wn/' + iconCode4 + '@2x.png';
         image4.src = iconUrl4;
 
-
+        let prognozemygtukas = document.createElement("button")
+   
+        prognozemygtukas.id = "prognoze"
+        document.getElementById("wrapper1").appendChild(prognozemygtukas)
 
         
 
