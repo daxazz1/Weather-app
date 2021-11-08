@@ -49,7 +49,7 @@ function showWeatherInDom(data) {
     // /prognoze siai dienai
 
         document.getElementById("pirmas").innerHTML =  data.city.name;
-        document.getElementById("antras").innerHTML = "Temperatūra: " + Math.round(data.list[0].main.temp) +" °C / " + "Jaučiama:  " + Math.round(data.list[0].main.feels_like) +" °C";
+        document.getElementById("antras").innerHTML = "Temperatūra: " + Math.round(data.list[0].main.temp) +" °C / " + "Juntama:  " + Math.round(data.list[0].main.feels_like) +" °C";
         document.getElementById("trecias").innerHTML = "Vėjo greitis: " + data.list[0].wind.speed + " m/s";
         document.getElementById("ketvirtas").innerHTML = data.list[0].weather[0].description;
 
@@ -63,7 +63,7 @@ function showWeatherInDom(data) {
 
         //prognoze rytoj
 
-        document.getElementById("sestas").innerHTML =  "Temperatūra: " + Math.round(data.list[6].main.temp) +" °C / " + "Jaučiama:  " + Math.round(data.list[6].main.feels_like) +" °C";
+        document.getElementById("sestas").innerHTML =  "Temperatūra: " + Math.round(data.list[6].main.temp) +" °C / " + "Juntama:  " + Math.round(data.list[6].main.feels_like) +" °C";
         document.getElementById("septintas").innerHTML = "Vėjo greitis: " + data.list[6].wind.speed + " m/s";
         document.getElementById("astuntas").innerHTML = data.list[6].weather[0].description;
 
@@ -74,7 +74,7 @@ function showWeatherInDom(data) {
 
      //prognoze poryt
 
-        document.getElementById("devintas").innerHTML =  "Temperatūra: " + Math.round(data.list[14].main.temp) +" °C / " + "Jaučiama:  " + Math.round(data.list[14].main.feels_like) +" °C";
+        document.getElementById("devintas").innerHTML =  "Temperatūra: " + Math.round(data.list[14].main.temp) +" °C / " + "Juntama:  " + Math.round(data.list[14].main.feels_like) +" °C";
         document.getElementById("desimtas").innerHTML = "Vėjo greitis: " + data.list[14].wind.speed + " m/s";
         document.getElementById("vienuoliktas").innerHTML = data.list[14].weather[0].description;
 
@@ -85,7 +85,7 @@ function showWeatherInDom(data) {
 
      //prognoze po 2 dienu
 
-        document.getElementById("dvyliktas").innerHTML =  "Temperatūra: " + Math.round(data.list[22].main.temp) +" °C / " + "Jaučiama:  " + Math.round(data.list[22].main.feels_like) +" °C";
+        document.getElementById("dvyliktas").innerHTML =  "Temperatūra: " + Math.round(data.list[22].main.temp) +" °C / " + "Juntama:  " + Math.round(data.list[22].main.feels_like) +" °C";
         document.getElementById("tryliktas").innerHTML = "Vėjo greitis: " + data.list[22].wind.speed + " m/s";
         document.getElementById("keturioliktas").innerHTML = data.list[22].weather[0].description;
 
