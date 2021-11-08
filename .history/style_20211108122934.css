@@ -1,8 +1,9 @@
 .content {
-  width: 80vh;
-  margin: auto;
+  width: 100%;
+  margin: 0 auto;
   display: block;
   padding-top: 5rem;
+  text-align: center;
 }
 #wrapper1,
 #wrapper2 {
@@ -44,7 +45,6 @@ button {
 .rytoj2,
 .rytoj3 {
   font-size: 12px;
-  border-bottom: 1px solid rgb(102, 102, 102);
 }
 
 #prognoze {
@@ -59,4 +59,7 @@ button {
 #h4-2,
 #h4-3 {
   font-size: 12px;
+}
+body {
+  margin: 0 auto;
 }

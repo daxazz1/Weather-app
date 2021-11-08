@@ -1,5 +1,5 @@
 .content {
-  width: 70vh;
+  width: 100%;
   margin: auto;
   display: block;
   padding-top: 5rem;
@@ -44,8 +44,6 @@ button {
 .rytoj2,
 .rytoj3 {
   font-size: 12px;
-
-  border-bottom: 1px solid rgb(102, 102, 102);
 }
 
 #prognoze {

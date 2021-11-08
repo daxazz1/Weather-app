@@ -1,9 +1,8 @@
 .content {
   width: 100%;
-  height: auto;
+
   display: block;
   padding-top: 5rem;
-  margin: 0 auto;
 }
 #wrapper1,
 #wrapper2 {
@@ -61,5 +60,6 @@ button {
   font-size: 12px;
 }
 body {
+  display: flex;
   align-items: center;
 }

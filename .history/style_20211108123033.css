@@ -3,7 +3,7 @@
   height: auto;
   display: block;
   padding-top: 5rem;
-  margin: 0 auto;
+  margin-left: 100px;
 }
 #wrapper1,
 #wrapper2 {
@@ -61,5 +61,6 @@ button {
   font-size: 12px;
 }
 body {
+  display: flex;
   align-items: center;
 }
